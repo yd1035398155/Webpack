@@ -36,6 +36,7 @@
     "mini-css-extract-plugin": "^2.1.0",
     "postcss-loader": "^6.1.1",
     "postcss-preset-env": "^6.7.0",
+    "scss-loader": "0.0.1",
     "style-loader": "^3.2.1",
     "url-loader": "^4.1.1",
     "webpack": "^5.47.1",
