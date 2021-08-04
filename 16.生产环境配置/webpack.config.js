@@ -94,7 +94,7 @@ module.exports = {
         loader: "html-loader",
       },
       {
-        exclude: /.\(js|css|html|png|jpg|gif|less|scss)$/i,
+        exclude: /\.(js|css|html|png|jpg|gif|less|scss)$/i,
         type: "asset/resource",
         generator: {
           filename: "other/[name].[hash:10][ext]",
