@@ -1,0 +1,1 @@
+{"version":3,"file":"css/built.1cd850d3f9.css","mappings":"AAAA,UAEE,qBACF,CACA,IACE,cACF","sources":["webpack:///./src/css/index.css"],"sourcesContent":["html,\r\nbody {\r\n  background-color: pink;\r\n}\r\ndiv {\r\n  font-size: 20px;\r\n}\r\n"],"names":[],"sourceRoot":""}
