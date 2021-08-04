@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[411],{411:function(n,u,t){function e(n,u){return n+u}function r(n,u){return n*u}t.r(u),t.d(u,{add:function(){return e},mul:function(){return r}}),console.log("test.js加载成功")}}]);
