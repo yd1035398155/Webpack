@@ -4,6 +4,8 @@ webpack.config.js ----  webpack的配置文件
 	作用:指示webpack干哪些活(当你运行webpack时,会加载里面的配置)
 
 	所有构建工具都是基于nodejs平台运行的,模块化默认采用commonjs
+	
+	一个chunk包括来自同一入口的资源.
 */
 // 用来拼接绝对路径的方法
 const { resolve } = require("path")

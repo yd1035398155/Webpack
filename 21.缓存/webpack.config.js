@@ -17,6 +17,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
  * 		chunkhash:根据chunk生成的hash值。如果打包来源于同一个chunk，那么hash值就一样。
  * 			问题：js和css同属于一个chunk，hash值还是一样
  * 		contenthash:根据文件的内容生成hash值。不同文件hash值一定不同
+ * 		用法:在output的filename中指定hash值
  */
 
 process.env.NODE_ENV = "production"
@@ -85,7 +86,7 @@ module.exports = {
                 ],
               ],
               // 开启babel缓存
-              // 第二次构建是,会读取之前的缓存
+              // 第二次构建时,会读取之前的缓存
               cacheDirectory: true,
             },
           },
