@@ -7,7 +7,7 @@
  * js文件:默认不能使用HMR功能-->需要修改index.js代码,添加支持HMR功能的代码
  * 	注意:HMR功能只能处理非入口js文件的其他文件
  * html文件:默认不能使用HMR功能,同时html不能热更新
- * 解决:修改entry入口,将html文件引入(解决了热更新,不用做HMR功能,因为整个项目就一个html文件)
+ * 解决:修改entry入口,将html文件引入(解决了刷新不了的问题,但还是不能做HMR功能(所有模块会刷新而不是html单独刷新),因为整个项目就一个html文件)
  */
 
 const { resolve } = require("path")

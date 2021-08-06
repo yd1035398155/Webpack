@@ -39,6 +39,7 @@
     "postcss-preset-env": "^6.7.0",
     "scss-loader": "0.0.1",
     "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.1.4",
     "thread-loader": "^3.0.4",
     "url-loader": "^4.1.1",
     "webpack": "^5.47.1",
