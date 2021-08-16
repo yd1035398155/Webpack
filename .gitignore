@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-/z-test
+/深入Vue原理
 
 # local env files
 .env.local
