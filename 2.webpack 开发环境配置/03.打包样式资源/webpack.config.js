@@ -24,7 +24,7 @@ module.exports = {
   module: {
     rules: [
       // 详细的loader配置
-      // 不同文件脾虚配置不同的loader处理
+      // 不同文件配置不同的loader处理
       {
         // 匹配哪些文件:
         test: /\.css$/,
